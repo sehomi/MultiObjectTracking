@@ -5,7 +5,7 @@
 int main(int argc, char **arv)
 {
 
-	ObjectTracker tracker(TrackerMode::TRACKER_SINGLE, TrackerName::TRACKER_MOSSE);
+	ObjectTracker tracker(TrackerMode::TRACKER_SINGLE, TrackerName::TRACKER_CSRT);
 
 	cv::VideoCapture vc;
 
